@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Persistence</ID>
+  <OriginalElement>JavaeeElement:/9925bfce/entityManagerFactory/server/jpa/JPA/PersistenceModel</OriginalElement>
+  <nodes>
+    <node x="0.0" y="733.0">EncryptionKey#file://C:/Users/Hamza/IdeaProjects/server/src/main/java/com/fdm/server/project/server/entity/EncryptionKey.java</node>
+    <node x="0.0" y="33.0">Stock#file://C:/Users/Hamza/IdeaProjects/server/src/main/java/com/fdm/server/project/server/entity/Stock.java</node>
+    <node x="404.25" y="0.0">ApplicationUser#file://C:/Users/Hamza/IdeaProjects/server/src/main/java/com/fdm/server/project/server/entity/ApplicationUser.java</node>
+    <node x="708.25" y="348.0">CreditCard#file://C:/Users/Hamza/IdeaProjects/server/src/main/java/com/fdm/server/project/server/entity/CreditCard.java</node>
+    <node x="22.25" y="348.0">Portfolio#file://C:/Users/Hamza/IdeaProjects/server/src/main/java/com/fdm/server/project/server/entity/Portfolio.java</node>
+    <node x="497.25" y="337.0">ConfirmationToken#file://C:/Users/Hamza/IdeaProjects/server/src/main/java/com/fdm/server/project/server/entity/ConfirmationToken.java</node>
+    <node x="259.25" y="326.0">Trade#file://C:/Users/Hamza/IdeaProjects/server/src/main/java/com/fdm/server/project/server/entity/Trade.java</node>
+    <node x="234.61904761904762" y="566.0">OrderRequest#file://C:/Users/Hamza/IdeaProjects/server/src/main/java/com/fdm/server/project/server/entity/OrderRequest.java</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Portfolio#file://C:/Users/Hamza/IdeaProjects/server/src/main/java/com/fdm/server/project/server/entity/Portfolio.java" target="Stock#file://C:/Users/Hamza/IdeaProjects/server/src/main/java/com/fdm/server/project/server/entity/Stock.java" relationship="RELATION">
+      <point x="-54.25" y="-72.0" />
+      <point x="0.0" y="105.0" />
+    </edge>
+    <edge source="Portfolio#file://C:/Users/Hamza/IdeaProjects/server/src/main/java/com/fdm/server/project/server/entity/Portfolio.java" target="ApplicationUser#file://C:/Users/Hamza/IdeaProjects/server/src/main/java/com/fdm/server/project/server/entity/ApplicationUser.java" relationship="RELATION">
+      <point x="54.25" y="-72.0" />
+      <point x="185.0" y="296.0" />
+      <point x="486.75" y="296.0" />
+      <point x="0.0" y="138.0" />
+    </edge>
+    <edge source="ConfirmationToken#file://C:/Users/Hamza/IdeaProjects/server/src/main/java/com/fdm/server/project/server/entity/ConfirmationToken.java" target="ApplicationUser#file://C:/Users/Hamza/IdeaProjects/server/src/main/java/com/fdm/server/project/server/entity/ApplicationUser.java" relationship="RELATION">
+      <point x="0.0" y="-83.0" />
+      <point x="592.75" y="296.0" />
+      <point x="486.75" y="296.0" />
+      <point x="0.0" y="138.0" />
+    </edge>
+    <edge source="Trade#file://C:/Users/Hamza/IdeaProjects/server/src/main/java/com/fdm/server/project/server/entity/Trade.java" target="ApplicationUser#file://C:/Users/Hamza/IdeaProjects/server/src/main/java/com/fdm/server/project/server/entity/ApplicationUser.java" relationship="RELATION">
+      <point x="54.25" y="-94.0" />
+      <point x="422.0" y="296.0" />
+      <point x="486.75" y="296.0" />
+      <point x="0.0" y="138.0" />
+    </edge>
+    <edge source="Trade#file://C:/Users/Hamza/IdeaProjects/server/src/main/java/com/fdm/server/project/server/entity/Trade.java" target="Stock#file://C:/Users/Hamza/IdeaProjects/server/src/main/java/com/fdm/server/project/server/entity/Stock.java" relationship="RELATION">
+      <point x="-54.25" y="-94.0" />
+      <point x="313.5" y="306.0" />
+      <point x="76.5" y="306.0" />
+      <point x="0.0" y="105.0" />
+    </edge>
+    <edge source="OrderRequest#file://C:/Users/Hamza/IdeaProjects/server/src/main/java/com/fdm/server/project/server/entity/OrderRequest.java" target="Trade#file://C:/Users/Hamza/IdeaProjects/server/src/main/java/com/fdm/server/project/server/entity/Trade.java" relationship="RELATION">
+      <point x="-1.4210854715202004E-14" y="-61.0" />
+      <point x="342.1190476190476" y="540.0" />
+      <point x="367.75" y="540.0" />
+      <point x="0.0" y="94.0" />
+    </edge>
+    <edge source="CreditCard#file://C:/Users/Hamza/IdeaProjects/server/src/main/java/com/fdm/server/project/server/entity/CreditCard.java" target="ApplicationUser#file://C:/Users/Hamza/IdeaProjects/server/src/main/java/com/fdm/server/project/server/entity/ApplicationUser.java" relationship="RELATION">
+      <point x="0.0" y="-72.0" />
+      <point x="797.75" y="296.0" />
+      <point x="486.75" y="296.0" />
+      <point x="0.0" y="138.0" />
+    </edge>
+    <edge source="OrderRequest#file://C:/Users/Hamza/IdeaProjects/server/src/main/java/com/fdm/server/project/server/entity/OrderRequest.java" target="ApplicationUser#file://C:/Users/Hamza/IdeaProjects/server/src/main/java/com/fdm/server/project/server/entity/ApplicationUser.java" relationship="RELATION">
+      <point x="71.66666666666669" y="-61.0" />
+      <point x="413.78571428571433" y="540.0" />
+      <point x="486.75" y="540.0" />
+      <point x="0.0" y="138.0" />
+    </edge>
+    <edge source="OrderRequest#file://C:/Users/Hamza/IdeaProjects/server/src/main/java/com/fdm/server/project/server/entity/OrderRequest.java" target="Stock#file://C:/Users/Hamza/IdeaProjects/server/src/main/java/com/fdm/server/project/server/entity/Stock.java" relationship="RELATION">
+      <point x="-71.66666666666669" y="-61.0" />
+      <point x="270.45238095238096" y="540.0" />
+      <point x="11.75" y="540.0" />
+      <point x="11.75" y="306.0" />
+      <point x="76.5" y="306.0" />
+      <point x="0.0" y="105.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8182912154031288" showDependencies="false" x="444.0" y="405.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+  </Categories>
+</Diagram>
+
